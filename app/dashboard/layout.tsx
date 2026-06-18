@@ -2,7 +2,7 @@ import SideNav from '@/app/ui/dashboard/sidenav';
 import { ReactNode } from 'react';
 
 type Props = {
-    chilren: ReactNode
+    children: ReactNode
 }
 
 export default function Layout({ children }: Props) {
